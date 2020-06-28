@@ -1,0 +1,304 @@
+/* article {
+    background-color: brown;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    
+} */
+
+body{
+    margin: 0 0;
+    overflow-x: hidden;
+}
+
+main, footer {
+    position: relative;
+    /* background-color: rgb(122, 125, 128); */
+    overflow: hidden;
+    border-radius: 3px;
+    width: 85%;    
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 1px black dotted; */
+    box-shadow: black 30px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+section p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.section-header {
+    background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)),url("assets/background_gif.gif");
+    /* background-position: ; */
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0px auto 30px auto;
+    box-shadow: 30px black;
+    /* transform: skewY(-5deg); */
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+}
+
+.section-header div {
+    /* transform: skewY(5deg); */
+    position: relative;
+    top: -10vh;
+}
+
+/* .skewedbottom {
+    height: 90px;
+    background-color: white;
+    transform: skewY(-5deg);
+    margin-top: -75px;
+    margin-bottom: 0px;
+    z-index: 1;
+} */
+
+
+
+.section-header h1 {
+    font-size: 3em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 0;
+}
+
+.section-header h2 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-description, .sec {
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-description h2{
+    font-size: 2em;
+    text-align: center;
+    /* color: rgb(112, 14, 88); */
+    color: transparent;
+    background-image: linear-gradient(to right, #64495E, #7d9bf7);
+    -webkit-background-clip: text;
+    margin-top: 0px;
+    
+    margin: 0 0;
+}
+
+.col-1-of-2 {
+    color: rgb(105, 105, 105);
+}
+
+.d_logos img{
+    /* width: 75px; */
+     height: 100px; 
+    /* border: 1px black dotted; */
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+.d_logos .row.large img {
+    height: 125px;
+    margin-bottom: 15px;
+}
+
+.d_logos .row.large {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.d_logos .row.large img:nth-child(1) {
+    height: 100px;
+    margin: 15px 15%;
+}
+
+.d_logos .row.large img:nth-child(2) {
+    height: 125px;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.d_logos .row.small {
+    display: flex;
+    justify-content: center;
+}
+
+.section-description .col-2-of-2 {
+    margin: auto auto;
+    margin-left: 1%;
+}
+
+div, .d_logos img, section {/*temp*/
+    /* border: 1px black dotted; */
+}
+
+.row.description {
+    max-width: 70%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+.section-project {
+    height: 800px;
+    margin-top: 75px;
+
+    background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(assets/background_tracks.jpg);
+    background-position: 50% 50%;
+    transform: skewY(-5deg);
+    
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-project .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-project a{
+    color: white;
+}
+
+.section-project h2{
+    margin-top: 80px;
+    
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    /* transform: skewY(5deg); */
+
+}
+
+.project.card {
+    width: 80%;
+    max-width: 1050px;  
+    transform:  skewY(5deg);  
+    margin: 0 auto;
+}
+
+.family2048-description {
+    /* transform: skewX(5deg); */
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.family2048-description img {
+    -webkit-filter: drop-shadow(10px 10px 10px #222222);
+        filter: drop-shadow(10px 10px 10px #222222);
+    }
+
+.family2048-description .logos img{
+    height: 100px;
+    
+}
+
+.family2048-description .demo img{
+    height: 300px;
+    /* position: absolute;
+    right: 0; */
+    /* padding-top: 20px; */
+    float: right;
+}
+
+.screenshots img {
+    height: 300px;
+    margin: 0 7px;
+    border-radius: 5px;
+    /* overflow: hidden; */
+    /* display: inline; */
+    
+}
+
+.screenshots {
+    /* display:  flex;
+    justify-content: center; */
+    background: rgba(255, 255, 255, 0.7);
+    
+     height: 310px; 
+     /* width: 80%; */
+     max-width: 1000px;
+    /* margin: 0 auto; */
+    /* transform:  skewY(5deg); */
+    border-radius: 7px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    padding: 5px 20px;
+}
+
+footer {
+    height: 200px;
+    background-color: rgb(218, 53, 53);
+}
+
+
+footer div{
+    /* height: 100px; */
+    /* width: 100%; */
+    
+    /* margin: -8px -8px -16px -8px; */
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+footer .top{
+    height: 125px;
+}
+
+footer .row  {
+    /* position: absolute; */
+    margin: 30px auto;
+    width: 80%;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+footer .row a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer .col-1-of-2{
+    margin-right: 20px;
+}
+
+footer .col-1-of-2 span{
+    margin: 0 10px;
+}
+
+footer .col-2-of-2 span{
+    float: right;
+}
+
+/* 
+footer .row .col-1-of-2, footer .row .col-2-of-2{
+    diplay
+} */
